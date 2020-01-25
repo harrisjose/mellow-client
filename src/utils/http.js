@@ -3,8 +3,8 @@ import axios from 'axios'
 // Point to given base url or default to domain on which client is running
 let baseURL = window.location.protocol + '//' + window.location.host
 
-if (process.env.APP_BASE_URL) {
-  baseURL = process.env.APP_BASE_URL
+if (process.env.VUE_APP_BASE_URL) {
+  baseURL = process.env.VUE_APP_BASE_URL
 }
 
 axios.defaults.baseURL = baseURL
