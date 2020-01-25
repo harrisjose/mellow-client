@@ -1,0 +1,35 @@
+plugins:
+  - removeDoctype: true
+  - removeViewBox: false
+  - removeXMLProcInst: true
+  - removeComments: true
+  - removeMetadata: true
+  - removeEditorsNSData: true
+  - removeHiddenElems: true
+  - removeEmptyText: true
+  - removeEmptyAttrs: true
+  - removeEmptyContainers: true
+  - removeUnusedNS: true
+  - removeTitle: true
+  - removeDesc: true
+  - removeUselessDefs: true
+  - removeUnknownsAndDefaults: true
+  - removeNonInheritableGroupAttrs: true
+  - removeUselessStrokeAndFill: true
+  - cleanupAttrs: true
+  - convertStyleToAttrs: true
+  - cleanupIDs: false
+  - cleanupNumericValues: true
+  - cleanupEnableBackground: true
+  - convertColors: true
+  - convertShapeToPath: true
+  - moveElemsAttrsToGroup: true
+  - moveGroupAttrsToElems: true
+  - collapseGroups: true
+  - convertPathData: true
+  - convertTransform: true
+  - mergePaths: true
+  - minifyStyles: true
+  - inlineStyles:
+      onlyMatchedOnce: false
+      removeMatchedSelectors: true
