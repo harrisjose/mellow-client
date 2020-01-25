@@ -11,7 +11,7 @@ npm install
 Create a file called .env.development with following data
 
 ```
-VUE_APP_FACILIO_BASE_URL=http://localhost:3000
+APP_BASE_URL=http://localhost:3000
 ```
 
 ### Compiles and hot-reloads for development
